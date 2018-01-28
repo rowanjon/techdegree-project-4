@@ -39,13 +39,24 @@ body {
     width: 40%;
   }
 
+  .gallery {
+    max-width: 440px;
+  }
+
 
 }
 
 @media (min-width: 720px) {
 
+  #searchBox {
+    width: 20%;
+  }
+
+
   .gallery {
-    margin: 0 15%;
+    margin: 0 auto;
+    min-width: 680px;
+    max-width: 1000px;
   }
 
   .image {
