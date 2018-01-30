@@ -1,3 +1,4 @@
+
 // calling the "abigimage" lightbox plugin
 $('a[href$=".jpg"]').abigimage({
   onopen: function (target) {
@@ -6,5 +7,5 @@ $('a[href$=".jpg"]').abigimage({
           ($('span', target).html() || '')
       );
   },
-  zoomMax: 2
+  zoomMax: 1.25
 });

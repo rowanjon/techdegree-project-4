@@ -4,6 +4,7 @@
 
 body {
   background-color: #f2f5f9;
+  font-family: 'Lato', sans-serif;
 }
 
 .search {
@@ -11,7 +12,8 @@ body {
 }
 
 #searchBox {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
   border-radius: 4px;
   border-color: lightgrey;
 }
@@ -30,7 +32,19 @@ body {
 .abigimage-img {
   max-width: 65%;
   max-height: 70%;
+  margin: 1% auto 1%;
 }
+
+.abigimage-bottom {
+  text-align: center;
+  margin: 0 auto;
+  background: none;
+}
+
+.abigimage-bottomBox {
+  bottom: 11%;
+}
+
 
 @media (min-width: 320px) {
 
@@ -68,6 +82,10 @@ body {
 
   .image {
     width: 200px;
+  }
+
+  .abigimage-bottom {
+    width: 600px;
   }
 
 
