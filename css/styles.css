@@ -16,6 +16,7 @@ body {
   font-family: 'Lato', sans-serif;
   border-radius: 4px;
   border-color: lightgrey;
+  padding: 8px 2px;
 }
 
 .gallery {
@@ -23,6 +24,8 @@ body {
   flex-wrap: wrap;
   margin: auto;
   justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .image {

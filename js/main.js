@@ -1,5 +1,7 @@
 
+
 // calling the "abigimage" lightbox plugin
+
 $('a[href$=".jpg"]').abigimage({
   onopen: function (target) {
       this.bottom.html(
